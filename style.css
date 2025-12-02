@@ -1,0 +1,73 @@
+body {
+    background: linear-gradient(135deg, #ffb6c1, #ffe4e1);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .names {
+    color: #d63384;
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .invite-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #444;
+  }
+  
+  .details p {
+    margin: 6px 0;
+    color: #333;
+  }
+  
+  .message {
+    font-style: italic;
+    color: #555;
+    margin: 20px 0;
+  }
+  
+  #toggleBtn {
+    background-color: #d63384;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #toggleBtn:hover {
+    background-color: #b0216c;
+    font-size: small;
+  }
+  
+  /* Hidden heart animation */
+  .heart {
+    position: absolute;
+    font-size: 25px;
+    color: #ff69b4;
+    animation: floatUp 3s ease-in-out forwards;
+  }
+  
+  @keyframes floatUp {
+    0% { opacity: 1; transform: translateY(0); }
+    100% { opacity: 0; transform: translateY(-200px); }
+  }
+ 
+    /* Responsive Design */
